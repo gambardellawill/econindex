@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+# Ignore virtualenv
+.venv/
+
+# Ignore Visual Studio Code's configuration files
+.vscode/
+
+# Ignore certificates
+*.crt
