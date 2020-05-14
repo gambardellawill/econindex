@@ -1,6 +1,5 @@
 # econindex
-Command-line tool for querying economic indices
 
----
+This is a command line tool for querying time series data for economic indices using the Brazilian Central Bank's (BCB) SOAP open-data webservice.
 
-This is a command-line tool made in Python meant to be used as a toy application, mostly for fun but also for a little profit.
+It was meant to be an exercise in using Python for consuming a SOAP webservice.

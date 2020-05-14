@@ -2,10 +2,10 @@ __pycache__/
 *.pyc
 
 # Ignore virtualenv
-.venv/
-
-# Ignore Visual Studio Code's configuration files
-.vscode/
+venv/
 
 # Ignore certificates
 *.crt
+
+# Ignore WSDL files
+*.wsdl
