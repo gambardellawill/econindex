@@ -1,11 +1,8 @@
 __pycache__/
 *.pyc
-
-# Ignore virtualenv
-venv/
-
-# Ignore certificates
+.vscode/
+.venv/
+*.zip
 *.crt
-
-# Ignore WSDL files
 *.wsdl
+    
