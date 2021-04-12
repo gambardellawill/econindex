@@ -5,7 +5,7 @@ from datetime import datetime
 
 class TimeSeriesHandler(metaclass=abc.ABCMeta):
     """
-    Implements the time series handler interface.
+    Implements a time series handler interface.
     """
     @classmethod
     def __subclasshook__(cls, subclass):
@@ -14,5 +14,13 @@ class TimeSeriesHandler(metaclass=abc.ABCMeta):
     
     @abc.abstractmethod
     def get_series(self, series_code: str, date: datetime):
-        """Load time series data from a data source."""
+        """
+        Load time series data from a data source. For more information,
+        refer to the documentation of the desired implementation for
+        this function.
+
+        Raises:
+            NotImplementedError: method not implemented in inherited class.
+        """
+
         raise NotImplementedError
